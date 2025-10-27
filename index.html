@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <style>
+        body{
+             font-family: "Poppins", sans-serif;
+        }
+        .title{
+            font-size: 30px;
+            text-align: center;
+           
+        }
+        .title:hover{
+            letter-spacing: 4px;
+            transition: 0.2s ease-in-out;
+            color: goldenrod;
+        }
+        .pricing{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card{
+            background-color: goldenrod;
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .card:hover{
+            background-color: #A72703;
+            transition: 0.5s ease-in;
+            color: white;
+        }
+        .card button{
+            font-size: 20px;
+            padding-bottom: 10px;
+            background-color: rebeccapurple;
+            color: white;
+            border-radius: 5px;
+            outline: none;
+            padding: 10px 20px;
+            border: none;
+        }
+        .card button:hover{
+            background-color: white;
+            color: black;
+            transition: 0.2s ease;
+        }
+        .card ul li{
+            list-style-type: none;
+            font-size: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Upgrade To Pro+</h2>
+    <div class="pricing">
+        <div class="card">
+            <h2>For Individuals</h2>
+            <ul>
+                <li>1 Gb</li>
+                <li>No Support</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <h2>For Enterprice</h2>
+            <ul>
+                <li>10 Gb</li>
+                <li>Priority Support</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
