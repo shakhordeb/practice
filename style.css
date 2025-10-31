@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.full{
+    background-color: #F7F1E8;
+}
+.nav .logo img{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+}
+.nav{
+    background-color: #B80818;
+    color: white;
+    top: 0;
+    position: sticky;
+}
+.nav .menu ul li{
+    list-style-type: none;
+    padding:10px;
+}
+.nav .menu ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav .nav-icon i{
+    padding: 25px 10px;
+    font-size: 20px;
+}
+.banner{
+    background-color: #B80818;
+    color: white;
+}
+.banner .left h1{
+    padding-top: 50px;
+    font-size: 80px;
+    color: orange;
+}
+.banner .left h2{
+    font-size: 120px;
+    padding-top: 80px;
+    font-weight: bold;
+}
+.banner .right img{
+    width: 600px;
+}
+.category{
+    margin-top: 50px;
+    
+}
+.category .card{
+    padding: 20px 10px;
+}
+.category .card img{
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+.category .card .text h3{
+    color: #B80818;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.category .card .text h2{
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card h3{
+    color: #B80818;
+    font-size: 25px;
+}
+.card h2{
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+}
+.me{
+    padding-top: 50px;
+    background-color: #B80818;
+    padding-bottom: 50px;
+}
+.me .item{
+    border: 1px dashed orange;
+    padding: 20px;
+    text-align: center;
+}
+.me .item h2{
+    color: white;
+}
+.me .item p{
+    color: orange;
+}
+.service{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.servive-left img{
+    width: 580px;
+}
+.service-right h3{
+    color: orange;
+    font-size: 35px;
+}
+.service-right h2{
+    color: #B80818;
+    font-size: 45px;
+    font-weight: bold;
+}
+.right-bottom{
+    text-align: center;
+    border: 1px dashed orange;
+    padding: 20px 2px;
+    width: 170px;
+}
+.right-bottom i{
+    font-size: 30px;
+}
